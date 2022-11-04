@@ -1,0 +1,11 @@
+PS > docker images
+REPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
+joaocampos07/weather-microservice   latest    54f4d0e0ac73   2 weeks ago   782MB
+joaocampos07/weather-microservice   v2        54f4d0e0ac73   2 weeks ago   782MB
+joaocampos07                        latest    54f4d0e0ac73   2 weeks ago   782MB
+test2                               latest    54f4d0e0ac73   2 weeks ago   782MB
+test4                               latest    54f4d0e0ac73   2 weeks ago   782MB
+test1                               latest    e1f56395d461   2 weeks ago   782MB
+test3                               latest    e1f56395d461   2 weeks ago   782MB
+PS > docker image tag 54f acregistrybk2.azurecr.io/weather-microservice ==> tag it first 
+PS > docker push acregistrybk2.azurecr.io/weather-microservice:latest 

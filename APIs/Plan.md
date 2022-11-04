@@ -26,3 +26,4 @@ On google maps everthing is by 52.234202, 20.985243 meaning latitude longitue an
 ## Improvements to do : 
 - use other type in DB : https://learn.microsoft.com/en-us/sql/t-sql/spatial-geography/spatial-types-geography?redirectedfrom=MSDN&view=sql-server-ver16
 - Separate tables Customer | Coordinates ??
+- Secret connection string
